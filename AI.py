@@ -1,8 +1,8 @@
 import urllib.request, json 
 data = ""
-print("Use local prompts.json?")
+print("Use prompts.json from internet (may be out of date)?")
 h = input("Y/N: ")
-if (h == "N" or "n"):
+if (h == "Y" or "Y"):
     with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/blob/main/prompts.json?raw=true") as url:
         data = json.load(url)
 else:
