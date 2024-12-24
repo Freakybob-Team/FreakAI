@@ -1,7 +1,12 @@
 import urllib.request, json 
-with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/blob/main/prompts.json?raw=true") as url:
-    global data
-    data = json.load(url)
+data = ""
+print("Use local prompts.json?")
+h = input("Y/N: ")
+if (h == "N" or "n"):
+    with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/blob/main/prompts.json?raw=true") as url:
+        data = json.load(url)
+else:
+    data = json.load("prompts.json")
 print("FreakAI: Hello, I am FreakAI!")
 def ask():
     global message
