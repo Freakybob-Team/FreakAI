@@ -1,2 +1,2 @@
 # FreakAI
- Our very real freaky AI model no lie virus 2024
+![image](https://tenor.com/view/ai-genai-iphone-apple-samsung-gif-17689745519900469173.gif)
