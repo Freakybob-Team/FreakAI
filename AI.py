@@ -1,6 +1,6 @@
 import urllib.request, json 
 data = ""
-print("Use prompts.json from internet (may be out of date)?")
+print("Fetch data from GitHub? (say N to use the local one, if available)")
 h = input("Y/N: ")
 if (h == "Y" or "Y"):
     with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/blob/main/prompts.json?raw=true") as url:
