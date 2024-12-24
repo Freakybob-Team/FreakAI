@@ -1,5 +1,5 @@
 import urllib.request, json 
-with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/prompts.json?raw=true") as url:
+with urllib.request.urlopen("https://github.com/Freakybob-Team/FreakAI/blob/main/prompts.json?raw=true") as url:
     global data
     data = json.load(url)
 print("FreakAI: Hello, I am FreakAI!")
