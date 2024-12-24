@@ -11,7 +11,10 @@ while True:
         print("FreakAI: No more Malaysia")
         ask()
     if (message == "freaky" or "Freaky"):
-        print("I'm currently with your mother.")
+        print("FreakAI: I'm currently with your mother.")
+        ask()
+    if (message == "dog"):
+        print("FreakAI: llllllllldexm                       ")
         ask()
     else:
         print("FreakAI: I'm sorry, but I do not understand what you are saying. Try again later!")
