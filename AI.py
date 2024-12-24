@@ -11,14 +11,8 @@ while True:
     if (message in data):
         print(data[message])
         ask()
-    # if (message == "boom" or "Boom"):
-    #     print("FreakAI: No more Malaysia")
-    #     ask()
-    # if (message == "freaky" or "Freaky"):
-    #     print("FreakAI: I'm currently with your mother.")
-    #     ask()
     # if (message == "dog"):
-    #     print("FreakAI: llllllllldexm                       ")
+    #     print("")
     #     ask()
     # if (message == "boom" or "Boom"):
     #     print("FreakAI: No more Malaysia")
