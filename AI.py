@@ -14,7 +14,7 @@ def ask():
 ask()
 while True:
     if (message in data):
-        print("FreakAI:" + data[message])
+        print("FreakAI: " + data[message])
         ask()
     else:
         print("FreakAI: I'm sorry, but I do not understand what you are saying. Try again later!")
